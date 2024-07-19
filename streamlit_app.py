@@ -1,7 +1,9 @@
 # Import python packages
 import streamlit as st
 # from snowflake.snowpark.context import get_active_session
+import requests
 from snowflake.snowpark.functions import col
+
 
 
 # Write directly to the app
@@ -52,5 +54,4 @@ if ingridients_list:
         session.sql(my_insert_stmt).collect()
         st.success('Your Smoothie is ordered!', icon="✅")
 
-import requests
 
