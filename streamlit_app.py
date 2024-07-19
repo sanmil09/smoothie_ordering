@@ -49,5 +49,4 @@ if ingridients_list:
         
         session.sql(my_insert_stmt).collect()
         st.success('Your Smoothie is ordered!', icon="✅")
-SMOOTHIES.PUBLIC."FNR09AJ7O2SNQLVX (Stage)"
 
